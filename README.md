@@ -1,0 +1,1 @@
+A repository containing the coding drills and exercises I completed while teaching myselves C# scripting in Unity.

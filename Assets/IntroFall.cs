@@ -12,7 +12,11 @@ public class IntroFall : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        transform.Translate(0.0f, -2.5f * Time.deltaTime, 0.0f, Space.World);
+        if (transform.position.y > -0.95f)
+        {
+            transform.Translate(0.0f, -2.5f * Time.deltaTime, 0.0f, Space.World);
+        }
+        
 		
 	}
 }
